@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test" : "echo \"No tests specified\" && exit 0",
+    "lint": "vue-tsc --noEmit && eslint . --ext .ts,.tsx,.vue"
   },
   "dependencies": {
     "axios": "^1.9.0",
